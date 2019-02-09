@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "3a5f40ec-b0c9-4a4f-acc1-24be14e318f2",
+  "alias": "ReactSpfxWebPartWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "3a5f40ec-b0c9-4a4f-acc1-24be14e318f2",
+    "group": { "default": "SharePoint Framework" },
+    "title": { "default": "ReactSpfxWebPart" },
+    "description": { "default": "Retrieving list  items and auto refresh on change of data on SharePoint List" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "ReactSpfxWebPart"
+    }
+  }]
+}

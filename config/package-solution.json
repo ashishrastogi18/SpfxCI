@@ -1,0 +1,11 @@
+{
+  "solution": {
+    "name": "react-spfx-web-part-client-side-solution",
+    "id": "7d2fa690-094d-4445-b012-97d462b335ae",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/react-spfx-web-part.sppkg"
+  }
+}
