@@ -114,11 +114,11 @@ private fetchDatafromSharePointList()
 
         <div className={styles.panelStyle} > 
           <br></br>
-          <div><Label>I am a office ui fabric label.</Label></div>
+          <div><Label>I am a office ui fabric label. CI CD</Label></div>
           <div><Button>I am a office ui fabric button.</Button></div>
           <br></br> 
           <div className={styles.tableCaptionStyle} >Fetch Course Details from SharePointList using SPFx,RESTAPI,React JS
-            Data on page changes with change in the SharePointList  </div>
+            Data on page changes with change in the SharePointList CI </div>
           <br></br>
            <div className={styles.headerCaptionStyle} >Course Details</div>
           <div className={styles.tableStyle} >   
