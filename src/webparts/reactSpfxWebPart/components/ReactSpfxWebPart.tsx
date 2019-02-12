@@ -114,7 +114,7 @@ private fetchDatafromSharePointList()
 
         <div className={styles.panelStyle} > 
           <br></br>
-          <div><Label>I am a office ui fabric label. CI CD</Label></div>
+          <div><Label>I am a office ui fabric label. Setting up build</Label></div>
           <div><Button>I am a office ui fabric button.</Button></div>
           <br></br> 
           <div className={styles.tableCaptionStyle} >Fetch Course Details from SharePointList using SPFx,RESTAPI,React JS
