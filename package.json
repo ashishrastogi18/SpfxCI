@@ -28,7 +28,8 @@
     "@types/mocha": ">=2.2.33 <2.6.0",
     "gulp": "~3.9.1",
     "gulp-spsync-creds": "2.3.8",
-    "node-sppkg-deploy": "1.2.0"
+    "node-sppkg-deploy": "1.2.0",
+    "webpack": "^4.29.3"
   },
   "scripts": {
     "build": "gulp bundle",
