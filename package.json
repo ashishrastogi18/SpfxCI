@@ -25,7 +25,6 @@
     "@microsoft/sp-module-interfaces": "~1.1.1",
     "@microsoft/sp-webpart-workbench": "~1.1.0",
     "@types/chai": ">=3.4.34 <3.6.0",
-    "@types/jquery": "^3.3.29",
     "@types/mocha": ">=2.2.33 <2.6.0",
     "gulp": "~3.9.1",
     "gulp-spsync-creds": "2.3.8",

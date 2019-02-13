@@ -1,6 +1,6 @@
 import * as React from 'react';
 //import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'react-router-dom';
-//import  './ReactSpfxWebPart.module.scss'
+import  './ReactSpfxWebPart.module.scss'
 import { IReactSpfxWebPartProps } from './IReactSpfxWebPartProps';
 import * as jquery from 'jquery';
 //import * as pnp from 'sp-pnp-js';
@@ -112,31 +112,31 @@ private fetchDatafromSharePointList()
     });*/
      return (  
 
-        <div className={styles.panelStyle} > 
+        <div > 
           <br></br>
           <div><Label>I am a office ui fabric label. Setting up build</Label></div>
           <div><Button>I am a office ui fabric button.</Button></div>
           <br></br> 
-          <div className={styles.tableCaptionStyle} >Fetch Course Details from SharePointList using SPFx,RESTAPI,React JS
+          <div  >Fetch Course Details from SharePointList using SPFx,RESTAPI,React JS
             Data on page changes with change in the SharePointList CI </div>
           <br></br>
-           <div className={styles.headerCaptionStyle} >Course Details</div>
-          <div className={styles.tableStyle} >   
+           <div >Course Details</div>
+          <div  >   
             
-            <div className={styles.headerStyle} >  
-              <div className={styles.CellStyle}>Courses</div>  
-              <div className={styles.CellStyle}>Credit </div>  
-              <div className={styles.CellStyle}>Department</div>  
+            <div >  
+              <div >Courses</div>  
+              <div >Credit </div>  
+              <div >Department</div>  
                 
                      
             </div>  
             
               {this.state.items.map(function(item,key){  
                 
-                return (<div className={styles.rowStyle} key={key}>  
-                    <div className={styles.CellStyle}>{item.Courses}</div>  
-                    <div className={styles.CellStyle}>{item.Credit}</div>  
-                     <div className={styles.CellStyle}>{item.Department}</div>
+                return (<div  key={key}>  
+                    <div >{item.Courses}</div>  
+                    <div >{item.Credit}</div>  
+                     <div >{item.Department}</div>
    	 	              
    	 	  
                   </div>);  
