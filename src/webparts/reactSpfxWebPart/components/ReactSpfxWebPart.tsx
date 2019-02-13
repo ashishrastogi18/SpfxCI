@@ -1,6 +1,6 @@
 import * as React from 'react';
 //import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'react-router-dom';
-import  './ReactSpfxWebPart.module.scss'
+//import  './ReactSpfxWebPart.module.scss'
 import { IReactSpfxWebPartProps } from './IReactSpfxWebPartProps';
 import * as jquery from 'jquery';
 //import * as pnp from 'sp-pnp-js';
