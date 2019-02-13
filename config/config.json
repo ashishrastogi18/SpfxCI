@@ -1,7 +1,7 @@
 {
   "entries": [
     {
-      "entry": "./lib/webparts/reactSpfxWebPart/components/ReactSpfxWebPartWebPart.js",
+      "entry": "./lib/webparts/reactSpfxWebPart/components/ReactSpfxWebPart.js",
       "manifest": "./src/webparts/reactSpfxWebPart/ReactSpfxWebPartWebPart.manifest.json",
       "outputPath": "./dist/react-spfx-web-part.bundle.js"
     }
