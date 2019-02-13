@@ -4,8 +4,8 @@ import styles from './ReactSpfxWebPart.module.scss';
 import { IReactSpfxWebPartProps } from './IReactSpfxWebPartProps';
 import * as jquery from 'jquery';
 //import * as pnp from 'sp-pnp-js';
-import { Label } from 'office-ui-fabric-react/lib/components/Label';
-import { Button } from 'office-ui-fabric-react/lib/components/Button';
+//import { Label } from 'office-ui-fabric-react/lib/components/Label';
+//import { Button } from 'office-ui-fabric-react/lib/components/Button';
 
 export interface IReactSpfxState{  
   items:[  
