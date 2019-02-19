@@ -19,7 +19,7 @@ build.task('upload-to-sharepoint', {
     environmentInfo.tenant = config.args['tenant'] || environmentInfo.tenant;
     environmentInfo.cdnSite = config.args['cdnsite'] || environmentInfo.cdnSite;
     environmentInfo.cdnLib = config.args['cdnlib'] || environmentInfo.cdnLib;
-
+    
     return new Promise((resolve, reject) => {
       const deployFolder = require('./config/copy-assets.json');
       const folderLocation = `./${deployFolder.deployCdnPath}/**/*.*`;
