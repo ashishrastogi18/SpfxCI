@@ -3,7 +3,7 @@
 const gulp = require('gulp');
 const build = require('@microsoft/sp-build-web');
 
-//added for CI/CD
+//added for Continous Integration
 require('./gulpfile-deploy-app-package');
 require('./gulpfile-serve-info');
 require('./gulpfile-update-manifest');
